@@ -44,6 +44,105 @@
         </div>
     </nav>
 
+    <main class="container d-flex h-100 p-3 mx-auto flex-column justify-content-center">
+
+        <h1>Checkout</h1>
+        <div class="table-responsive container">
+            <table class="table table-light">
+                <thead>
+                    <tr>
+                        <th scope="col">Product</th>
+                        <th scope="col">Description</th>
+                        <th scope="col">Price</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr class="">
+                        <td scope="row">Almond Milk</td>
+                        <td>The smooth creaminess of our Unsweetened Almondmilk is yours, with 0g of sugar and only 35 calories per serving. Packed with calcium, it fits right in at breakfast. Use it in recipes that call for milk, from soups and sauces to cakes and smoothies.</td>
+                        <td>$4.17</td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Oat Milk</td>
+                        <td>All the smooth creaminess you expect from dairy milk, just without the dairy. An excellent source of calcium, vitamin A and vitamin D, Extra Creamy Oatmilk swaps in for all your cooking and baking needs. Plus it’s delicious sipped straight.</td>
+                        <td>$3.99</td>
+                    </tr>
+                    <tr class="">
+                        <td scope="row">Toasted Coconut Almondmilk</td>
+                        <td>A delightfully drinkable blend of almond milk and real coconut cream, with 0g of sugar* and 45 calories per serving. Made from simple, plant-based ingredients, with no soy, gluten or carrageenan. Packed with calcium and delicious flavor. *not a low calorie food</td>
+                        <td>$4.99</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <h2>Billing address</h2>
+            <div class="mb-3">
+                <label for="" class="form-label">First Name</label>
+                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Last Name</label>
+                <input type="text"
+                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Address</label>
+                <input type="text"
+                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Address 2 (Optional)</label>
+                <input type="text"
+                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Country</label>
+                <input type="text"
+                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">State</label>
+                <input type="text"
+                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+            </div>
+            <div class="mb-3">
+                <label for="" class="form-label">Zip</label>
+                <input type="text"
+                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+            </div>
+        </div>
+        
+        <div>
+
+            <h2>Payment</h2>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="paymentType" id="creditCard">
+              <label class="form-check-label" for="paymentType">
+                Credit Card
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="paymentType" id="debitCard">
+              <label class="form-check-label" for="paymentType">
+                Debit Card
+              </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="paymentType" id="paypal">
+                <label class="form-check-label" for="paymentType">
+                  PayPal
+                </label>
+              </div>
+              
+              <div class="mt-4">
+                  <p>Total: <b>$13.15</b></p>
+                  <button type="button" class="btn btn-primary">Checkout</button>
+              </div>
+        </div>
+
+    </main>
+
     <footer class="bg-light">
         © Califia Farms, LLC 2023. All Rights Reserved.
     </footer>
