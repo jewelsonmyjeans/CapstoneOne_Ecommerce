@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <title>Ecommerce Website</title>
 </head>
 <body>
 
     <nav class="navbar navbar-expand-sm navbar-light bg-light">
-        <img src="https://lollicupstore.com/cdn/shop/collections/califia.jpg?v=1663900659" class="d-inline-block align-top" width="50px" height="50px"/>
+        <img src="https://lollicupstore.com/cdn/shop/collections/califia.jpg?v=1663900659" class="d-inline-block align-top" width="50" height="50" alt="Califia Farms">
         <a href="#" class="navbar-brand mb-0 h1">Califia Farms</a>
         <button 
         type="button" 
@@ -78,38 +78,38 @@
         <div>
             <h2>Billing address</h2>
             <div class="mb-3">
-                <label for="" class="form-label">First Name</label>
-                <input type="text" class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" name="firstName" id="firstName" aria-describedby="firstName" placeholder="Enter your first name">
             </div>
             <div class="mb-3">
-                <label for="" class="form-label">Last Name</label>
+                <label for="lastName" class="form-label">Last Name</label>
                 <input type="text"
-                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                class="form-control" name="lastName" id="lastName" aria-describedby="lastName" placeholder="Enter your last name">
             </div>
             <div class="mb-3">
-                <label for="" class="form-label">Address</label>
+                <label for="billingAddress" class="form-label">Address</label>
                 <input type="text"
-                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                class="form-control" name="billingAddress" id="billingAddress" aria-describedby="billingAddress" placeholder="Enter address">
             </div>
             <div class="mb-3">
-                <label for="" class="form-label">Address 2 (Optional)</label>
+                <label for="billingAddress2" class="form-label">Address 2 (Optional)</label>
                 <input type="text"
-                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                class="form-control" name="billingAddress2" id="billingAddress2" aria-describedby="billingAddress2" placeholder="">
             </div>
             <div class="mb-3">
-                <label for="" class="form-label">Country</label>
+                <label for="billingCountry" class="form-label">Country</label>
                 <input type="text"
-                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                class="form-control" name="billingCountry" id="billingCountry" aria-describedby="billingCountry" placeholder="Select Country">
             </div>
             <div class="mb-3">
-                <label for="" class="form-label">State</label>
+                <label for="billingState" class="form-label">State</label>
                 <input type="text"
-                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                class="form-control" name="billingState" id="billingState" aria-describedby="billingState" placeholder="Select State">
             </div>
             <div class="mb-3">
-                <label for="" class="form-label">Zip</label>
+                <label for="billingZip" class="form-label">Zip</label>
                 <input type="text"
-                class="form-control" name="" id="" aria-describedby="helpId" placeholder="">
+                class="form-control" name="billingZip" id="billingZip" aria-describedby="billingZip" placeholder="Enter zip code">
             </div>
         </div>
         
@@ -118,19 +118,19 @@
             <h2>Payment</h2>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="paymentType" id="creditCard">
-              <label class="form-check-label" for="paymentType">
+              <label class="form-check-label" for="creditCard">
                 Credit Card
               </label>
             </div>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="paymentType" id="debitCard">
-              <label class="form-check-label" for="paymentType">
+              <label class="form-check-label" for="debitCard">
                 Debit Card
               </label>
             </div>
             <div class="form-check">
                 <input class="form-check-input" type="radio" name="paymentType" id="paypal">
-                <label class="form-check-label" for="paymentType">
+                <label class="form-check-label" for="paypal">
                   PayPal
                 </label>
               </div>

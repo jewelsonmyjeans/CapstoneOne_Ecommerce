@@ -3,6 +3,10 @@
 ## Description
 I've made a E-Commerce Website selling Califia Farms products. My page includes a home page, products page, checkout page, and a login / registration page. 
 
+## Preview
+
+[E-Commerce Website]() 
+
 ### Languages and Tools
 HTML
 CSS
