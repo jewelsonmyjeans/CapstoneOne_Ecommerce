@@ -5,7 +5,7 @@ I've made a E-Commerce Website selling Califia Farms products. My page includes 
 
 ## Live Preview
 
-[E-Commerce Website]() 
+[E-Commerce Website Preview](https://jewelsonmyjeans.github.io/CapstoneOne_Ecommerce/) 
 
 ## Preview
 
