@@ -8,6 +8,19 @@ h1 {
     color: #DD3C13;
 }
 
+.btn-danger:hover {
+   background: #DD3C13;
+}
+
+.btn-primary {
+    background: #DD3C13;
+    border: #DD3C13;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    color: #DD3C13;
+}
+
 .home-page-img {
     width: 50%;
     border: solid #DD3C13 1px;
