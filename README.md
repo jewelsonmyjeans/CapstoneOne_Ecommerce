@@ -9,6 +9,12 @@ I've made a E-Commerce Website selling Califia Farms products. My page includes 
 
 ## Preview
 
+![Alt text](./images/homepage.png)
+![Alt text](./images/product.png)
+![Alt text](./images/registration.png)
+![Alt text](./images/login.png)
+![Alt text](./images/checkout.png)
+
 ### Languages and Tools
 HTML
 CSS
